@@ -1,10 +1,10 @@
-﻿import { meesage } from 'discord.js';
+﻿import { Message } from 'discord.js';
 
 const Discord = require("discord.js");
 const testBot = new Discord.Client();
 
 const fs = require('fs');
-var abalone = new message();
+var abalone = new Message();
 
 testBot.on("message", (message) => {
 	if(message.content == "ping"){
@@ -20,7 +20,7 @@ testBot.on("message", (message) => {
         abalone = message;
     }
     if (message.content == "안민다" || message.content == "아발론3d" || message.content == "당긴다") {
-        if (message.member.displayName == "❔❓" || message.member.displayName == "잉클") {
+        if (message.member.id == "387967131733458954") {
             message.channel.send(abalone);
         }
         else {
