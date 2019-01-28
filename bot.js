@@ -16,7 +16,9 @@ testBot.on("message", (message) => {
     if (message.content == "test" || message.content == "테스트") {
         message.channel.send("?\nㄴ\nㅅㄱ");
     }
+
     console.log(message.author.id + " " + message.channel.type + " " + message);
+
     if (message.author.id == "539484771248504832" && message.channel.type == 'dm') {
         abalone = message;
     }
