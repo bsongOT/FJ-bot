@@ -1,7 +1,10 @@
-﻿const Discord = require("discord.js");
+﻿import { meesage } from 'discord.js';
+
+const Discord = require("discord.js");
 const testBot = new Discord.Client();
 
 const fs = require('fs');
+var abalone = new message();
 
 testBot.on("message", (message) => {
 	if(message.content == "ping"){
@@ -13,11 +16,12 @@ testBot.on("message", (message) => {
     if (message.content == "test" || message.content == "테스트") {
         message.channel.send("?\nㄴ\nㅅㄱ");
     }
+    if (message.author.id == "539484771248504832" && message.channel.type == 'dm') {
+        abalone = message;
+    }
     if (message.content == "안민다" || message.content == "아발론3d" || message.content == "당긴다") {
         if (message.member.displayName == "❔❓" || message.member.displayName == "잉클") {
-            var article = fs.readFileSync("C:/Users/채상엽/Desktop/bot.txt");
-            lineArray = article.toString().split('\n');
-            message.channel.send("ᅟᅠᅟᅠᅟᅠ" + lineArray[0] + "\n          " + lineArray[1] + "\n       " + lineArray[2] + "\n   " + lineArray[3] + "\n" + lineArray[4] + "\n   " + lineArray[5] + "\n       " + lineArray[6] + "\n          " + lineArray[7] + "\n             " + lineArray[8]);
+            message.channel.send(abalone);
         }
         else {
             message.channel.send("경쟁자는 사용할 수 없는 명령어입니다.");
