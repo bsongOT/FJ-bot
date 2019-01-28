@@ -13,7 +13,7 @@ testBot.on("message", (message) => {
     if (message.content == "test" || message.content == "테스트") {
         message.channel.send("?\nㄴ\nㅅㄱ");
     }
-    if (message.content == "안민다") {
+    if (message.content == "안민다" || message.content == "아발론3d") {
         if (message.member.displayName == "❔❓" || message.member.displayName == "잉클") {
             var article = fs.readFileSync("C:/Users/채상엽/Desktop/bot.txt");
             lineArray = article.toString().split('\n');
