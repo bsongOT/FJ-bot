@@ -1,10 +1,19 @@
 ﻿import { Message } from 'discord.js';
+import { setInterval } from 'timers';
 
 const Discord = require("discord.js");
 const testBot = new Discord.Client();
 
 const fs = require('fs');
 var abalone = new Message();
+var abalone_alpha = new Message();
+var broadCasting = false;
+
+setInterval(() => {
+    if (!broadCasting || abalone_alpha.content == abalone.content) return;
+    else testBot.channels.find("id", "451378846285955072").send(abalone.content);
+    abalone_alpha = abalone;
+}, 3000);
 
 testBot.on("message", (message) => {
 	if(message.content == "ping"){
