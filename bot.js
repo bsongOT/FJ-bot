@@ -1089,4 +1089,4 @@ testBot.on("message", (message) => {
     }
 })
 
-testBot.login("NTM5MDU0NTEyMDA3MDIwNTU0.Dy8x5Q.jpcvMmqOb9Mg60F7u3myeu6WS4Y");
+testBot.login("NTM5MDU0NTEyMDA3MDIwNTU0.DzG8sQ.PlUFPozwRCmzp06M3iU3dYqHw44");
