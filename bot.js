@@ -20,7 +20,6 @@ testBot.on("message", (message) => {
         abalone = message;
     }
     if (message.content == "안민다" || message.content == "아발론3d" || message.content == "당긴다") {
-        message.channel.send("헉 플중님이다.");
         if (message.author.id == "387967131733458954") {
             message.channel.send(abalone.content);
         }
