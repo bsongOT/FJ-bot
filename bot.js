@@ -39,6 +39,18 @@ testBot.on("message", (message) => {
             message.channel.send("경쟁자는 사용할 수 없는 명령어입니다.");
         }
     }
+    if (message.content == "안민다 중계" || message.content == "아발론3d 중계" || message.content == "당긴다 중계") {
+        if (message.author.id == "387967131733458954") {
+            broadCasting = true;
+        }
+        else if (message.author.id == "499879655982104586") {
+            message.channel.send("당신은 안민다의 스파이로 캐스팅되었습니다.");
+            broadCasting = true;
+        }
+        else {
+            message.channel.send("경쟁자는 사용할 수 없는 명령어입니다.");
+        }
+    }
     if (message.content == "test2") {
         message.channel.send("test2");
     }
