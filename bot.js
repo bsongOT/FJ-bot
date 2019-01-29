@@ -444,7 +444,7 @@ testBot.on("message", (message) => {
     if (message.content.indexOf("새") != -1 || message.content.indexOf("짹짹") != -1) {
         message.react("🐦");
     }
-    if (message.content.indexOf("병아리") != -1) {
+    if (message.content.indexOf("병아리") != -1 || message.content.indexOf("삐약") != -1) {
         message.react("🐣");
     }
     if (message.content.indexOf("늑대") != -1 || message.content.indexOf("울프") != -1) {
@@ -899,197 +899,195 @@ testBot.on("message", (message) => {
     if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
         message.react("🥞");
     }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
+    if (message.content.indexOf("축구") != -1 || message.content.indexOf("사커") != -1 || message.content.indexOf("박지성") != -1) {
+        message.react("⚽");
+    }
+    if (message.content.indexOf("농구") != -1) {
+        message.react("🏀");
+    }
+    if (message.content.indexOf("미식 축구") != -1 || message.content.indexOf("풋볼") != -1) {
+        message.react("🏈");
+    }
+    if (message.content.indexOf("야구") != -1 || message.content.indexOf("베이스볼") != -1) {
+        message.react("⚾");
+    }
+    if (message.content.indexOf("테니스") != -1) {
+        message.react("🎾");
+    }
+    if (message.content.indexOf("럭비") != -1) {
+        message.react("🏉");
+    }
+    if (message.content.indexOf("당구") != -1 || message.content.indexOf("8번") != -1) {
+        message.react("🎱");
+    }
+    if (message.content.indexOf("골프") != -1) {
+        message.react("⛳");
+    }
+    if (message.content.indexOf("탁구") != -1) {
+        message.react("🏓");
+    }
+    if (message.content.indexOf("배드민턴") != -1 || message.content.indexOf("베드민턴") != -1) {
+        message.react("🏸");
+    }
+    if (message.content.indexOf("하키") != -1) {
+        message.react("🏒");
+    }
+    if (message.content.indexOf("스키") != -1) {
+        message.react("🎿");
+    }
+    if (message.content.indexOf("스노우보드") != -1 || message.content.indexOf("스노우 보드") != -1) {
+        message.react("🏂");
+    }
+    if (message.content.indexOf("스케이트") != -1) {
+        message.react("⛸");
+    }
+    if (message.content.indexOf("양궁") != -1 || message.content.indexOf("화살") != -1 || message.content.indexOf("활") != -1) {
+        message.react("🏹");
+    }
+    if (message.content.indexOf("낚시") != -1 || message.content.indexOf("피싱") != -1) {
+        message.react("🎣");
+    }
+    if (message.content.indexOf("보트") != -1) {
+        message.react("🚣");
+    }
+    if (message.content.indexOf("수영") != -1 || message.content.indexOf("박태환") != -1) {
+        message.react("🏊");
+    }
+    if (message.content.indexOf("파도타기") != -1 || message.content.indexOf("파도 타기") != -1) {
+        message.react("🏄");
+    }
+    if (message.content.indexOf("목욕") != -1 || message.content.indexOf("씻") != -1) {
+        message.react("🛀");
+    }
+    if (message.content.indexOf("자전거") != -1 || message.content.indexOf("바이클") != -1) {
+        message.react("🚴");
+    }
+    if (message.content.indexOf("트로피") != -1) {
+        message.react("🏆");
+    }
+    if (message.content.indexOf("메달") != -1) {
+        message.react("🏅");
+    }
+    if (message.content.indexOf("티켓") != -1 || message.content.indexOf("입장권") != -1) {
+        message.react("🎫");
+    }
+    if (message.content.indexOf("탈") != -1 || message.content.indexOf("가면") != -1) {
+        message.react("🎭");
+    }
+    if (message.content.indexOf("물감") != -1 || message.content.indexOf("아트") != -1 || message.content.indexOf("파레트") != -1) {
+        message.react("🎨");
+    }
+    if (message.content.indexOf("서커스") != -1) {
+        message.react("🎪");
+    }
+    if (message.content.indexOf("마이크") != -1 || message.content.indexOf("노래") != -1) {
+        message.react("🎤");
+    }
+    if (message.content.indexOf("헤드셋") != -1 || message.content.indexOf("헤드폰") != -1) {
+        message.react("🎧");
+    }
+    if (message.content.indexOf("음악") != -1 || message.content.indexOf("오선줄") != -1) {
+        message.react("🎼");
+    }
+    if (message.content.indexOf("피아노") != -1 || message.content.indexOf("도레미") != -1) {
+        message.react("🎹");
+    }
+    if (message.content.indexOf("색소폰") != -1 || message.content.indexOf("섹소폰") != -1) {
+        message.react("🎷");
+    }
+    if (message.content.indexOf("트럼펫") != -1) {
+        message.react("🎺");
+    }
+    if (message.content.indexOf("기타") != -1) {
+        message.react("🎸");
+    }
+    if (message.content.indexOf("바이올린") != -1) {
+        message.react("🎻");
+    }
+    if (message.content.indexOf("영화") != -1 || message.content.indexOf("컷") != -1) {
+        message.react("🎬");
+    }
+    if (message.content.indexOf("게임") != -1) {
+        message.react("🎮");
+    }
+    if (message.content.indexOf("다트") != -1) {
+        message.react("🎯");
+    }
+    if (message.content.indexOf("주사위") != -1) {
+        message.react("🎲");
+    }
+    if (message.content.indexOf("777") != -1 || message.content.indexOf("슬롯") != -1) {
+        message.react("🎰");
+    }
+    if (message.content.indexOf("볼링") != -1 || message.content.indexOf("스트라이크") != -1) {
+        message.react("🎳");
+    }
+    if (message.content.indexOf("권투") != -1 || message.content.indexOf("복싱") != -1) {
+        message.react("🥊");
+    }
+    if (message.content.indexOf("태권도") != -1) {
+        message.react("🥋");
+    }
+    if (message.content.indexOf("골") != -1) {
+        message.react("🥅");
+    }
+    if (message.content.indexOf("팬싱") != -1 || message.content.indexOf("펜싱") != -1) {
+        message.react("🤺");
+    }
+    if (message.content.indexOf("1등") != -1 || message.content.indexOf("금메달") != -1) {
+        message.react("🥇");
+    }
+    if (message.content.indexOf("2등") != -1 || message.content.indexOf("은메달") != -1) {
+        message.react("🥈");
+    }
+    if (message.content.indexOf("3등") != -1 || message.content.indexOf("동메달") != -1) {
+        message.react("🥉");
+    }
+    if (message.content.indexOf("드럼") != -1) {
+        message.react("🥁");
+    }
+    if (message.content.indexOf("자동차") != -1 || message.content.indexOf("승용차") != -1) {
+        message.react("🚗");
+    }
+    if (message.content.indexOf("택시") != -1 || message.content.indexOf("텍시") != -1) {
+        message.react("🚕");
+    }
+    if (message.content.indexOf("버스") != -1) {
+        message.react("🚌");
+    }
+    if (message.content.indexOf("구급차") != -1 || message.content.indexOf("삐용") != -1) {
+        message.react("🚑");
+    }
+    if (message.content.indexOf("트럭") != -1) {
         message.react("🥞");
     }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
+    if (message.content.indexOf("오토바이") != -1 || message.content.indexOf("바이시클") != -1) {
+        message.react("🏍");
     }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
+    if (message.content.indexOf("사이렌") != -1 || message.content.indexOf("위잉") != -1) {
+        message.react("🚨");
     }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
+    if (message.content.indexOf("기차") != -1 || message.content.indexOf("크특스") != -1 || message.content.indexOf("KTX") != -1) {
+        message.react("🚄");
     }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
+    if (message.content.indexOf("헬리콥터") != -1 || message.content.indexOf("헬기") != -1) {
+        message.react("🚁");
     }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
+    if (message.content.indexOf("비행기") != -1) {
+        message.react("✈");
     }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
+    if (message.content.indexOf("배") != -1 || message.content.indexOf("여객선") != -1) {
+        message.react("⛵");
+        message.react("⛴");
     }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
+    if (message.content.indexOf("로켓") != -1 || message.content.indexOf("로케트") != -1) {
+        message.react("🚀");
     }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
+    if (message.content.indexOf("인공위성") != -1 || message.content.indexOf("인공 위성") != -1) {
+        message.react("🛰");
     }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
-    }
-    if (message.content.indexOf("팬케이크") != -1 || message.content.indexOf("팬케잌") != -1) {
-        message.react("🥞");
+    if (message.content.indexOf("좌석") != -1 || message.content.indexOf("자리") != -1) {
+        message.react("💺");
     }
 })
 
