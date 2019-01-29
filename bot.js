@@ -20,6 +20,9 @@ testBot.on("message", (message) => {
         abalone = message;
     }
     if (message.content == "안민다" || message.content == "아발론3d" || message.content == "당긴다") {
+        if (message.author.id == "499879655982104586") {
+            message.channel.send("당신은 안민다의 스파이로 캐스팅되었습니다.\n" + abalone.content);
+        }
         if (message.author.id == "387967131733458954") {
             message.channel.send(abalone.content);
         }
