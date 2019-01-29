@@ -16,15 +16,12 @@ testBot.on("message", (message) => {
     if (message.content == "test" || message.content == "테스트") {
         message.channel.send("?\nㄴ\nㅅㄱ");
     }
-
-    console.log(message.author.id + " " + message + " " + message.channel.id);
-
     if (message.author.id == "539484771248504832" && message.channel.id == '466450753045921792') {
         abalone = message;
     }
     if (message.content == "안민다" || message.content == "아발론3d" || message.content == "당긴다") {
         if (message.author.id == "387967131733458954") {
-            message.channel.send(abalone);
+            message.channel.send(abalone.content);
         }
         else {
             message.channel.send("경쟁자는 사용할 수 없는 명령어입니다.");
