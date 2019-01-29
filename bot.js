@@ -13,7 +13,7 @@ setInterval(() => {
     if (!broadCasting || abalone_alpha.content == abalone.content) return;
     else testBot.channels.find("id", "451378846285955072").send(abalone.content);
     abalone_alpha = abalone;
-}, 3000);
+}, 1000);
 
 testBot.on("message", (message) => {
 	if(message.content == "ping"){
@@ -33,10 +33,10 @@ testBot.on("message", (message) => {
             message.channel.send(abalone.content);
         }
         else if (message.author.id == "499879655982104586") {
-            message.channel.send("당신은 안민다의 스파이로 캐스팅되었습니다.\n" + abalone.content);
+            message.channel.send("오키 언니 오늘부터 우리 스파이인 거당! 알겠징??\n" + abalone.content);
         }
         else {
-            message.channel.send("경쟁자는 사용할 수 없는 명령어입니다.");
+            message.channel.send("언니... 언닌 경쟁자자너... 경쟁자가 그런 명령어 쓰면 안 되징...ㅠㅠ");
         }
     }
     if (message.content == "안민다 중계" || message.content == "아발론3d 중계" || message.content == "당긴다 중계") {
@@ -44,12 +44,16 @@ testBot.on("message", (message) => {
             broadCasting = true;
         }
         else if (message.author.id == "499879655982104586") {
-            message.channel.send("당신은 안민다의 스파이로 캐스팅되었습니다.");
+            message.channel.send("오키 언니 오늘부터 우리 스파이인 거당! 알겠징??");
             broadCasting = true;
         }
         else {
-            message.channel.send("경쟁자는 사용할 수 없는 명령어입니다.");
+            message.channel.send("언니... 언닌 경쟁자자너... 경쟁자가 그런 명령어 쓰면 안 되징...ㅠㅠ");
         }
+    }
+    if (message.content == "중계 그만") {
+        message.channel.send("ㅠㅠ 알았엉 그만할겡 ㅎㅎ");
+        broadCasting = false;
     }
     if (message.content == "test2") {
         message.channel.send("test2");
