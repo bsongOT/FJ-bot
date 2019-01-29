@@ -17,13 +17,11 @@ testBot.on("message", (message) => {
         message.channel.send("?\nㄴ\nㅅㄱ");
     }
 
-    console.log(message.author.id + " " + message.channel.type + " " + message);
-
-    if (message.author.id == "539484771248504832" && message.channel.type == 'dm') {
+    if (message.author.id == "539484771248504832" && message.channel.id == '466450753045921792') {
         abalone = message;
     }
     if (message.content == "안민다" || message.content == "아발론3d" || message.content == "당긴다") {
-        if (message.member.id == "387967131733458954") {
+        if (message.author.id == "387967131733458954") {
             message.channel.send(abalone);
         }
         else {
