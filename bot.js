@@ -16,7 +16,7 @@ testBot.on("message", (message) => {
     if (message.content == "test" || message.content == "테스트") {
         message.channel.send("?\nㄴ\nㅅㄱ");
     }
-    if (message.author.id == "539484771248504832" && message.channel.id == '466450753045921792') {
+    if (message.author.id == "539484771248504832" /* && message.channel.id == '466450753045921792'*/) {
         abalone = message;
     }
     if (message.content == "안민다" || message.content == "아발론3d" || message.content == "당긴다") {
