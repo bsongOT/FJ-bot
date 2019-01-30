@@ -41,6 +41,7 @@ testBot.on("message", (message) => {
     }
     if (message.content == "안민다 중계" || message.content == "아발론3d 중계" || message.content == "당긴다 중계") {
         if (message.author.id == "387967131733458954") {
+            message.channel.send("주인님 안뇽!! 중계 시작할겡! ㅎㅎ");
             broadCasting = true;
         }
         else if (message.author.id == "499879655982104586") {
