@@ -1090,6 +1090,75 @@ testBot.on("message", (message) => {
     if (message.content.indexOf("좌석") != -1 || message.content.indexOf("자리") != -1) {
         message.react("💺");
     }
+    if (message.content.indexOf("신호등") != -1 || message.content.indexOf("빨간불") != -1 || message.content.indexOf("파란불") != -1 || message.content.indexOf("초록불") != -1) {
+        message.react("🚥");
+    }
+    if (message.content.indexOf("롤러코스터") != -1 || message.content.indexOf("놀이동산") != -1 || message.content.indexOf("에버랜드") != -1) {
+        message.react("🎢");
+    }
+    if (message.content.indexOf("산") != -1) {
+        message.react("⛰");
+    }
+    if (message.content.indexOf("파라솔") != -1 || message.content.indexOf("해변") != -1) {
+        message.react("🏖");
+    }
+    if (message.content.indexOf("학교") != -1 || message.content.indexOf("스쿨") != -1) {
+        message.react("🏫");
+    }
+    if (message.content.indexOf("집") != -1 || message.content.indexOf("하우스") != -1) {
+        message.react("🏠");
+    }
+    if (message.content.indexOf("교회") != -1) {
+        message.react("⛪");
+    }
+    if (message.content.indexOf("폰") != -1 || message.content.indexOf("휴대전화") != -1 || message.content.indexOf("휴대 전화") != -1) {
+        message.react("📱");
+    }
+    if (message.content.indexOf("액정") != -1) {
+        message.react("📲");
+    }
+    if (message.content.indexOf("노트북") != -1 || message.content.indexOf("놋북") != -1 || message.content.indexOf("컴퓨터") != -1) {
+        message.react("💻");
+    }
+    if (message.content.indexOf("키보드") != -1 || message.content.indexOf("자판") != -1) {
+        message.react("⌨");
+    }
+    if (message.content.indexOf("인쇄") != -1 || message.content.indexOf("프린트") != -1 || message.content.indexOf("프린터") != -1) {
+        message.react("🖨");
+    }
+    if (message.content.indexOf("마우스") != -1) {
+        message.react("🖱");
+    }
+    if (message.content.indexOf("조이스틱") != -1) {
+        message.react("🕹");
+    }
+    if (message.content.indexOf("디스크") != -1) {
+        message.react("💽");
+    }
+    if (message.content.indexOf("프로피디스크") != -1 || message.content.indexOf("프로피 디스크") != -1) {
+        message.react("💾");
+    }
+    if (message.content.indexOf("cd") != -1 || message.content.indexOf("CD") != -1) {
+        message.react("📀");
+    }
+    if (message.content.indexOf("카세트테이프") != -1 || message.content.indexOf("카세트 테이프") != -1) {
+        message.react("📼");
+    }
+    if (message.content.indexOf("사진기") != -1 || message.content.indexOf("카메라") != -1) {
+        message.react("📷");
+    }
+    if (message.content.indexOf("필름") != -1 || message.content.indexOf("영화관") != -1) {
+        message.react("🎞");
+    }
+    if (message.content.indexOf("전화") != -1) {
+        message.react("☎");
+    }
+    if (message.content.indexOf("에러") != -1 || message.content.indexOf("오류") != -1) {
+        message.react("📟");
+    }
+    if (message.content.indexOf("팩스") != -1 || message.content.indexOf("팩시밀리") != -1) {
+        message.react("📠");
+    }
 })
 
 testBot.login("NTM5MDU0NTEyMDA3MDIwNTU0.DzG8sQ.PlUFPozwRCmzp06M3iU3dYqHw44");
