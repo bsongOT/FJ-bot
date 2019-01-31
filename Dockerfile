@@ -1,5 +1,7 @@
 FROM node:8
-
+RUN mkdir /bot
+WORKDIR /bot
 ADD . .
 RUN npm install
-CMD ["npm", "run", "start"]
+WORKDIR /home
+CMD ["npm", "run", "start", "--prefix", "/bot"]
