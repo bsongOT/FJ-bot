@@ -5,7 +5,7 @@ const Discord = require("discord.js");
 const testBot = new Discord.Client();
 
 const fs = require('fs');
-const token = fs.readFileSync("token.txt").toString();
+//const token = fs.readFileSync("token.txt").toString();
 
 var abalone = new Message();
 var abalone_alpha = new Message();
