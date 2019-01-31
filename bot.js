@@ -1161,6 +1161,102 @@ testBot.on("message", (message) => {
     if (message.content.indexOf("팩스") != -1 || message.content.indexOf("팩시밀리") != -1) {
         message.react("📠");
     }
+    if (message.content.indexOf("tv") != -1 || message.content.indexOf("티비") != -1 || message.content.indexOf("텔레비전") != -1) {
+        message.react("📺");
+    }
+    if (message.content.indexOf("OTP") != -1 || message.content.indexOf("인증") != -1) {
+        message.react("🎛");
+    }
+    if (message.content.indexOf("스톱워치") != -1 || message.content.indexOf("스톱 워치") != -1) {
+        message.react("⏱");
+    }
+    if (message.content.indexOf("타이머") != -1) {
+        message.react("⏲");
+    }
+    if (message.content.indexOf("시계") != -1 || message.content.indexOf("알람") != -1) {
+        message.react("⏰");
+    }
+    if (message.content.indexOf("모래시계") != -1 || message.content.indexOf("모래 시계") != -1) {
+        message.react("⏳");
+    }
+    if (message.content.indexOf("위성") != -1) {
+        message.react("📡");
+    }
+    if (message.content.indexOf("배터리") != -1 || message.content.indexOf("건전지") != -1) {
+        message.react("🔋");
+    }
+    if (message.content.indexOf("플러그") != -1 || message.content.indexOf("콘센트") != -1) {
+        message.react("🔌");
+    }
+    if (message.content.indexOf("전구") != -1 || message.content.indexOf("에디슨") != -1) {
+        message.react("💡");
+    }
+    if (message.content.indexOf("형광등") != -1 || message.content.indexOf("후레쉬") != -1) {
+        message.react("🔦");
+    }
+    if (message.content.indexOf("촛불") != -1) {
+        message.react("🕯");
+    }
+    if (message.content.indexOf("쓰레기통") != -1 || message.content.indexOf("쓰레기 통") != -1) {
+        message.react("🗑");
+    }
+    if (message.content.indexOf("돈") != -1 || message.content.indexOf("입금") != -1 || message.content.indexOf("송금") != -1) {
+        message.react("💸");
+    }
+    if (message.content.indexOf("달러") != -1 || message.content.indexOf("지폐") != -1) {
+        message.react("💵");
+    }
+    if (message.content.indexOf("돈주머니") != -1 || message.content.indexOf("돈 주머니") != -1) {
+        message.react("💰");
+    }
+    if (message.content.indexOf("신용카드") != -1 || message.content.indexOf("신용 카드") != -1) {
+        message.react("💳");
+    }
+    if (message.content.indexOf("다이아") != -1 || message.content.indexOf("보석") != -1) {
+        message.react("💎");
+    }
+    if (message.content.indexOf("저울") != -1) {
+        message.react("⚖");
+    }
+    if (message.content.indexOf("망치") != -1 || message.content.indexOf("뚜따") != -1 || message.content.indexOf("순뚜") != -1) {
+        message.react("🔨");
+    }
+    if (message.content.indexOf("픽스") != -1 || message.content.indexOf("디버그") != -1 || message.content.indexOf("디버깅") != -1) {
+        message.react("🛠");
+    }
+    if (message.content.indexOf("곡괭이") != -1 || message.content.indexOf("갓오곡") != -1) {
+        message.react("⛏");
+    }
+    if (message.content.indexOf("볼트") != -1 || message.content.indexOf("너트") != -1) {
+        message.react("🔩");
+    }
+    if (message.content.indexOf("기어") != -1 || message.content.indexOf("환경설정") != -1 || message.content.indexOf("팩토리오") != -1 || message.content.indexOf("팩볶음오") != -1) {
+        message.react("⚙");
+    }
+    if (message.content.indexOf("체인") != -1) {
+        message.react("⛓");
+    }
+    if (message.content.indexOf("총") != -1 || message.content.indexOf("스나이퍼") != -1) {
+        message.react("🔫");
+    }
+    if (message.content.indexOf("폭탄") != -1 || message.content.indexOf("펑") != -1) {
+        message.react("💣");
+    }
+    if (message.content.indexOf("칼") != -1 || message.content.indexOf("나이프") != -1) {
+        message.react("🔪");
+    }
+    if (message.content.indexOf("실드") != -1 || message.content.indexOf("방패") != -1) {
+        message.react("🛡");
+    }
+    if (message.content.indexOf("흡연") != -1 || message.content.indexOf("담배") != -1) {
+        message.react("🚬");
+    }
+    if (message.content.indexOf("항아리") != -1 || message.content.indexOf("발효") != -1) {
+        message.react("⚱");
+    }
+    if (message.content.indexOf("관") != -1) {
+        message.react("⚰");
+    }
 })
 
 testBot.login(token);
