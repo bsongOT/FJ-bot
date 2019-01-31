@@ -10,7 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "babel-node --presets es2015 bot.js"
+    "start": "babel-node --presets es2015 bot.js",
+    "build": "babel --presets es2015  -d ./build bot.js"
   },
   "keywords": [],
   "author": "",

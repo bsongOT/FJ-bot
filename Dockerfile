@@ -4,4 +4,4 @@ WORKDIR /bot
 ADD . .
 RUN npm install
 WORKDIR /home
-CMD ["npm", "run", "start", "--prefix", "/bot"]
+CMD ["node","/bot/build/bot.js"]
