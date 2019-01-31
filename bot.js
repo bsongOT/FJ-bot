@@ -5,6 +5,8 @@ const Discord = require("discord.js");
 const testBot = new Discord.Client();
 
 const fs = require('fs');
+const token = fs.readFileSync("token.txt").toString();
+
 var abalone = new Message();
 var abalone_alpha = new Message();
 var broadCasting = false;
@@ -1161,4 +1163,4 @@ testBot.on("message", (message) => {
     }
 })
 
-testBot.login("NTM5MDU0NTEyMDA3MDIwNTU0.DzG8sQ.PlUFPozwRCmzp06M3iU3dYqHw44");
+testBot.login(token);
