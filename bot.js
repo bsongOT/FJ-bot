@@ -6,7 +6,7 @@ const testBot = new Discord.Client();
 
 const fs = require('fs');
 const token = fs.readFileSync("tokens.txt").toString();
-console.log("the token is " + token);
+Console.log("the token is " + token);
 
 var abalone = new Message();
 var abalone_alpha = new Message();
