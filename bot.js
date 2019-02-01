@@ -53,7 +53,7 @@ testBot.on("message", (message) => {
     if (message.content.indexOf("졸리") != -1 || message.content.indexOf("자야") != -1 || message.content.indexOf("zzz") != -1) {
         message.react("💤");
     }
-    if (message.content.indexOf("똥") != -1 || message.content.indexOf("응가") != -1 || message.content.indexOf("화장실") != -1) {
+    if (message.content.indexOf("똥") != -1 || message.content.indexOf("응가") != -1) {
         message.react("💩");
     }
     if (message.content.indexOf("사악") != -1) {
@@ -1448,161 +1448,158 @@ testBot.on("message", (message) => {
     if (message.content.indexOf("?") != -1 || message.content.indexOf("물음표") != -1) {
         message.react("❔");
     }
-    if (message.content.indexOf("싸우") != -1 || message.content.indexOf("fight") != -1) {
-        message.react("⚔");
+    if (message.content.indexOf("!!") != -1) {
+        message.react("‼");
     }
     if (message.content.indexOf("!?") != -1) {
         message.react("⁉");
     }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
+    if (message.content.indexOf("싸우") != -1 || message.content.indexOf("fight") != -1) {
+        message.react("⚔");
+    }
+    if (message.content.indexOf("경고") != -1 || message.content.indexOf("위험") != -1) {
+        message.react("⚠");
+    }
+    if (message.content.indexOf("atm") != -1 || message.content.indexOf("ATM") != -1) {
+        message.react("🏧");
+    }
+    if (message.content.indexOf("금연") != -1) {
+        message.react("🚭");
+    }
+    if (message.content.indexOf("화장실") != -1) {
+        message.react("🚾");
+    }
+    if (message.content.indexOf("주차") != -1) {
+        message.react("🅿");
+    }
+    if (message.content.indexOf("그그") != -1 || message.content.indexOf("ㄷㄷ") != -1) {
+        message.react("🈁");
+    }
+    if (message.content.indexOf("영") != -1) {
+        message.react("0⃣");
+    }
+    if (message.content.indexOf("하나") != -1) {
+        message.react("1⃣");
+    }
+    if (message.content.indexOf("둘") != -1) {
+        message.react("2⃣");
+    }
+    if (message.content.indexOf("셋") != -1) {
+        message.react("3⃣");
+    }
+    if (message.content.indexOf("넷") != -1) {
+        message.react("4⃣");
+    }
+    if (message.content.indexOf("다섯") != -1) {
+        message.react("5⃣");
+    }
+    if (message.content.indexOf("여섯") != -1) {
+        message.react("6⃣");
+    }
+    if (message.content.indexOf("일곱") != -1) {
+        message.react("7⃣");
+    }
+    if (message.content.indexOf("여덟") != -1) {
+        message.react("8⃣");
+    }
+    if (message.content.indexOf("아홉") != -1) {
+        message.react("9⃣");
+    }
+    if (message.content.indexOf("십") != -1) {
+        message.react("🔟");
+    }
+    if (message.content.indexOf("재생") != -1) {
+        message.react("▶");
+    }
+    if (message.content.indexOf("정지") != -1) {
+        message.react("⏸");
+    }
+    if (message.content.indexOf("빨리감기") != -1 || message.content.indexOf(">>") != -1) {
+        message.react("⏩");
+    }
+    if (message.content.indexOf("되감기") != -1 || message.content.indexOf("<<") != -1) {
+        message.react("⏪");
+    }
+    if (message.content.indexOf("순환") != -1) {
+        message.react("🔁");
+    }
+    if (message.content.indexOf("오른쪽 위") != -1 || message.content.indexOf("오른쪽위") != -1) {
+        message.react("↗");
+    }
+    if (message.content.indexOf("오른쪽 아래") != -1 || message.content.indexOf("오른쪽아래") != -1) {
+        message.react("↘");
+    }
+    if (message.content.indexOf("왼쪽 아래") != -1 || message.content.indexOf("왼쪽아래") != -1) {
+        message.react("↙");
+    }
+    if (message.content.indexOf("왼쪽 위") != -1 || message.content.indexOf("왼쪽위") != -1) {
+        message.react("↖");
+    }
+    if (message.content.indexOf("상하") != -1 || message.content.indexOf("수직") != -1 || message.content.indexOf("위 아래") != -1) {
+        message.react("↕");
+    }
+    if (message.content.indexOf("좌우") != -1 || message.content.indexOf("수평") != -1) {
+        message.react("↔");
+    }
+    if (message.content.indexOf("회전") != -1) {
+        message.react("🔄");
+    }
+    if (message.content.indexOf("상승") != -1) {
+        message.react("⤴");
+    }
+    if (message.content.indexOf("하락") != -1 || message.content.indexOf("하강") != -1) {
+        message.react("⤵");
+    }
+    if (message.content.indexOf("#") != -1 || message.content.indexOf("샵") != -1) {
+        message.react("#⃣");
+    }
+    if (message.content.indexOf("별찍기") != -1 || message.content.indexOf("별 찍기") != -1) {
+        message.react("*⃣");
+    }
+    if (message.content.indexOf("허수") != -1) {
+        message.react("ℹ");
+    }
+    if (message.content.indexOf("알파벳") != -1 || message.content.indexOf("abc") != -1) {
+        message.react("🔤");
+    }
+    if (message.content.indexOf("라라라") != -1 || message.content.indexOf("랄라라") != -1 || message.content.indexOf("랄랄라") != -1) {
+        message.react("🎵");
+    }
+    if (message.content.indexOf("음표") != -1) {
+        message.react("🎶");
+    }
+    if (message.content.indexOf("더하기") != -1 || message.content.indexOf("플러스") != -1) {
+        message.react("➕");
+    }
+    if (message.content.indexOf("빼기") != -1 || message.content.indexOf("마이너스") != -1) {
+        message.react("➖");
+    }
+    if (message.content.indexOf("나누기") != -1) {
+        message.react("➗");
+    }
+    if (message.content.indexOf("곱하기") != -1) {
+        message.react("✖");
+    }
+    if (message.content.indexOf("$") != -1) {
+        message.react("💲");
     }
     if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
+        message.react("☑");
     }
     if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
+        message.react("⚪");
     }
     if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
+        message.react("🔸");
     }
     if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
+        message.react("🔶");
     }
     if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
+        message.react("▫");
     }
     if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
-        message.react("❕");
+        message.react("⬜");
     }
 })
 
