@@ -6,6 +6,7 @@ const testBot = new Discord.Client();
 
 const fs = require('fs');
 const token = fs.readFileSync("tokens.txt").toString();
+console.log("the token is " + token);
 
 var abalone = new Message();
 var abalone_alpha = new Message();
@@ -1583,22 +1584,18 @@ testBot.on("message", (message) => {
     if (message.content.indexOf("$") != -1) {
         message.react("💲");
     }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
+    if (message.content.indexOf("체크") != -1) {
         message.react("☑");
     }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
+    if (message.content.indexOf("동그라미") != -1) {
         message.react("⚪");
     }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
+    if (message.content.indexOf("마름모") != -1) {
         message.react("🔸");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
         message.react("🔶");
     }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
+    if (message.content.indexOf("네모") != -1 || message.content.indexOf("사각형") != -1) {
         message.react("▫");
-    }
-    if (message.content.indexOf("!") != -1 || message.content.indexOf("느낌표") != -1) {
         message.react("⬜");
     }
 })
