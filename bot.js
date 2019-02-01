@@ -1455,7 +1455,7 @@ testBot.on("message", (message) => {
     if (message.content.indexOf("!?") != -1) {
         message.react("⁉");
     }
-    if (message.content.indexOf("싸우") != -1 || message.content.indexOf("fight") != -1) {
+    if (message.content.indexOf("싸우") != -1 || message.content.indexOf("fight") != -1 || message.content.indexOf("맞다이") != -1) {
         message.react("⚔");
     }
     if (message.content.indexOf("경고") != -1 || message.content.indexOf("위험") != -1) {
@@ -1596,7 +1596,182 @@ testBot.on("message", (message) => {
     }
     if (message.content.indexOf("네모") != -1 || message.content.indexOf("사각형") != -1) {
         message.react("▫");
+        message.react("◽");
+        message.react("◻");
         message.react("⬜");
+    }
+    if (message.content.indexOf("소리") != -1 || message.content.indexOf("쩌렁쩌렁") != -1) {
+        message.react("🔊");
+    }
+    if (message.content.indexOf("음소거") != -1) {
+        message.react("🔇");
+    }
+    if (message.content.indexOf("확성기") != -1) {
+        message.react("📢");
+    }
+    if (message.content.indexOf("알림") != -1 || message.content.indexOf("감지봇") != -1) {
+        message.react("🔔");
+    }
+    if (message.content.indexOf("노벨") != -1) {
+        message.react("🔕");
+    }
+    if (message.content.indexOf("조커") != -1) {
+        message.react("🃏");
+    }
+    if (message.content.indexOf("가운데") != -1) {
+        message.react("🀄");
+    }
+    if (message.content.indexOf("스페이드") != -1) {
+        message.react("♠");
+    }
+    if (message.content.indexOf("클로버") != -1) {
+        message.react("♣");
+    }
+    if (message.content.indexOf("하트") != -1) {
+        message.react("♥");
+    }
+    if (message.content.indexOf("다이아") != -1 && message.content.indexOf("다이아몬드") == -1 && message.content.indexOf("다이아 몬드") == -1) {
+        message.react("♦");
+    }
+    if (message.content.indexOf("화투") != -1) {
+        message.react("🎴");
+    }
+    if (message.content.indexOf("말풍선") != -1) {
+        message.react("💭");
+        message.react("💬");
+        message.react("🗨");
+    }
+    if (message.content.indexOf("1시") != -1 && message.content.indexOf("1시반") == -1 && message.content.indexOf("1시 반") == -1 && message.content.indexOf("1시30분") == -1 && message.content.indexOf("1시 30분") == -1 && message.content.indexOf("11시") == -1) {
+        message.react("🕐");
+    }
+    if (message.content.indexOf("2시") != -1 && message.content.indexOf("2시반") == -1 && message.content.indexOf("2시 반") == -1 && message.content.indexOf("2시30분") == -1 && message.content.indexOf("2시 30분") == -1 && message.content.indexOf("12시") == -1) {
+        message.react("🕑");
+    }
+    if (message.content.indexOf("3시") != -1 && message.content.indexOf("3시반") == -1 && message.content.indexOf("3시 반") == -1 && message.content.indexOf("3시30분") == -1 && message.content.indexOf("3시 30분") == -1) {
+        message.react("🕒");
+    }
+    if (message.content.indexOf("4시") != -1 && message.content.indexOf("4시반") == -1 && message.content.indexOf("4시 반") == -1 && message.content.indexOf("4시30분") == -1 && message.content.indexOf("4시 30분") == -1) {
+        message.react("🕓");
+    }
+    if (message.content.indexOf("5시") != -1 && message.content.indexOf("5시반") == -1 && message.content.indexOf("5시 반") == -1 && message.content.indexOf("5시30분") == -1 && message.content.indexOf("5시 30분") == -1) {
+        message.react("🕔");
+    }
+    if (message.content.indexOf("6시") != -1 && message.content.indexOf("6시반") == -1 && message.content.indexOf("6시 반") == -1 && message.content.indexOf("6시30분") == -1 && message.content.indexOf("6시 30분") == -1) {
+        message.react("🕕");
+    }
+    if (message.content.indexOf("7시") != -1 && message.content.indexOf("7시반") == -1 && message.content.indexOf("7시 반") == -1 && message.content.indexOf("7시30분") == -1 && message.content.indexOf("7시 30분") == -1) {
+        message.react("🕖");
+    }
+    if (message.content.indexOf("8시") != -1 && message.content.indexOf("8시반") == -1 && message.content.indexOf("8시 반") == -1 && message.content.indexOf("8시30분") == -1 && message.content.indexOf("8시 30분") == -1) {
+        message.react("🕗");
+    }
+    if (message.content.indexOf("9시") != -1 && message.content.indexOf("9시반") == -1 && message.content.indexOf("9시 반") == -1 && message.content.indexOf("9시30분") == -1 && message.content.indexOf("9시 30분") == -1) {
+        message.react("🕘");
+    }
+    if (message.content.indexOf("10시") != -1 && message.content.indexOf("10시반") == -1 && message.content.indexOf("10시 반") == -1 && message.content.indexOf("10시30분") == -1 && message.content.indexOf("10시 30분") == -1) {
+        message.react("🕙");
+    }
+    if (message.content.indexOf("11시") != -1 && message.content.indexOf("11시반") == -1 && message.content.indexOf("11시 반") == -1 && message.content.indexOf("11시30분") == -1 && message.content.indexOf("11시 30분") == -1) {
+        message.react("🕚");
+    }
+    if (message.content.indexOf("12시") != -1 && message.content.indexOf("12시반") == -1 && message.content.indexOf("12시 반") == -1 && message.content.indexOf("12시30분") == -1 && message.content.indexOf("12시 30분") == -1) {
+        message.react("🕛");
+    }
+    if ((message.content.indexOf("1시 반") != -1 || message.content.indexOf("1시반") != -1 || message.content.indexOf("1시 30분") != -1 || message.content.indexOf("1시30분") != -1) && message.content.indexOf("11시") == -1) {
+        message.react("🕜");
+    }
+    if ((message.content.indexOf("2시 반") != -1 || message.content.indexOf("2시반") != -1 || message.content.indexOf("2시 30분") != -1 || message.content.indexOf("2시30분") != -1) && message.content.indexOf("12시") == -1) {
+        message.react("🕝");
+    }
+    if (message.content.indexOf("3시 반") != -1 || message.content.indexOf("3시반") != -1 || message.content.indexOf("3시 30분") != -1 || message.content.indexOf("3시30분") != -1) {
+        message.react("🕞");
+    }
+    if (message.content.indexOf("4시 반") != -1 || message.content.indexOf("4시반") != -1 || message.content.indexOf("4시 30분") != -1 || message.content.indexOf("4시30분") != -1) {
+        message.react("🕟");
+    }
+    if (message.content.indexOf("5시 반") != -1 || message.content.indexOf("5시반") != -1 || message.content.indexOf("5시 30분") != -1 || message.content.indexOf("5시30분") != -1) {
+        message.react("🕠");
+    }
+    if (message.content.indexOf("6시 반") != -1 || message.content.indexOf("6시반") != -1 || message.content.indexOf("6시 30분") != -1 || message.content.indexOf("6시30분") != -1) {
+        message.react("🕡");
+    }
+    if (message.content.indexOf("7시 반") != -1 || message.content.indexOf("7시반") != -1 || message.content.indexOf("7시 30분") != -1 || message.content.indexOf("7시30분") != -1) {
+        message.react("🕢");
+    }
+    if (message.content.indexOf("8시 반") != -1 || message.content.indexOf("8시반") != -1 || message.content.indexOf("8시 30분") != -1 || message.content.indexOf("8시30분") != -1) {
+        message.react("🕣");
+    }
+    if (message.content.indexOf("9시 반") != -1 || message.content.indexOf("9시반") != -1 || message.content.indexOf("9시 30분") != -1 || message.content.indexOf("9시30분") != -1) {
+        message.react("🕤");
+    }
+    if (message.content.indexOf("10시 반") != -1 || message.content.indexOf("10시반") != -1 || message.content.indexOf("10시 30분") != -1 || message.content.indexOf("10시30분") != -1) {
+        message.react("🕥");
+    }
+    if (message.content.indexOf("11시 반") != -1 || message.content.indexOf("11시반") != -1 || message.content.indexOf("11시 30분") != -1 || message.content.indexOf("11시30분") != -1) {
+        message.react("🕦");
+    }
+    if (message.content.indexOf("12시 반") != -1 || message.content.indexOf("12시반") != -1 || message.content.indexOf("12시 30분") != -1 || message.content.indexOf("12시30분") != -1) {
+        message.react("🕧");
+    }
+    if (message.content.indexOf("팔각형") != -1) {
+        message.react("🛑");
+    }
+    if (message.content.indexOf("제트") != -1) {
+        message.react("🇿");
+    }
+    if (message.content.indexOf("와이") != -1) {
+        message.react("🇾");
+    }
+    if (message.content.indexOf("엑스") != -1 || message.content.indexOf("액스") != -1) {
+        message.react("🇽");
+    }
+    if (message.content.indexOf("더블유") != -1) {
+        message.react("🇼");
+    }
+    if (message.content.indexOf("브이") != -1) {
+        message.react("🇻");
+    }
+    if (message.content.indexOf("티") != -1) {
+        message.react("🇹");
+    }
+    if (message.content.indexOf("에스") != -1) {
+        message.react("🇸");
+    }
+    if (message.content.indexOf("큐") != -1) {
+        message.react("🇶");
+    }
+    if (message.content.indexOf("엔") != -1) {
+        message.react("🇳");
+    }
+    if (message.content.indexOf("엠") != -1) {
+        message.react("🇲");
+    }
+    if (message.content.indexOf("엘") != -1) {
+        message.react("🇱");
+    }
+    if (message.content.indexOf("케이") != -1) {
+        message.react("🇰");
+    }
+    if (message.content.indexOf("제이") != -1) {
+        message.react("🇯");
+    }
+    if (message.content.indexOf("아이") != -1) {
+        message.react("🇮");
+    }
+    if (message.content.indexOf("에이취") != -1 || message.content.indexOf("에이치") != -1) {
+        message.react("🇭");
+    }
+    if (message.content.indexOf("쥐") != -1) {
+        message.react("🇬");
+    }
+    if (message.content.indexOf("에프") != -1) {
+        message.react("🇫");
+    }
+    if (message.content.indexOf("씨") != -1) {
+        message.react("🇨");
+    }
+    if (message.content.indexOf("에이") != -1) {
+        message.react("🇦");
     }
 })
 
